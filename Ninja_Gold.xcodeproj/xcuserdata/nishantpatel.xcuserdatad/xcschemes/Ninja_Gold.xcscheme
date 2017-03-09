@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "962320DF1E70C6D100C8564E"
+               BuildableName = "Ninja_Gold.app"
+               BlueprintName = "Ninja_Gold"
+               ReferencedContainer = "container:Ninja_Gold.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "962320F31E70C6D100C8564E"
+               BuildableName = "Ninja_GoldTests.xctest"
+               BlueprintName = "Ninja_GoldTests"
+               ReferencedContainer = "container:Ninja_Gold.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "962320FE1E70C6D100C8564E"
+               BuildableName = "Ninja_GoldUITests.xctest"
+               BlueprintName = "Ninja_GoldUITests"
+               ReferencedContainer = "container:Ninja_Gold.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "962320DF1E70C6D100C8564E"
+            BuildableName = "Ninja_Gold.app"
+            BlueprintName = "Ninja_Gold"
+            ReferencedContainer = "container:Ninja_Gold.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "962320DF1E70C6D100C8564E"
+            BuildableName = "Ninja_Gold.app"
+            BlueprintName = "Ninja_Gold"
+            ReferencedContainer = "container:Ninja_Gold.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "962320DF1E70C6D100C8564E"
+            BuildableName = "Ninja_Gold.app"
+            BlueprintName = "Ninja_Gold"
+            ReferencedContainer = "container:Ninja_Gold.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
